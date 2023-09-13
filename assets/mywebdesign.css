@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    box-sizing: border-box;
+    
 }
 .hero{
     position: relative;
@@ -19,7 +19,8 @@ nav{
     width: 84%;
     padding: 20px 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
+    left: 90%;
 }
 nav ul li{
     display: inline-block;
@@ -63,7 +64,7 @@ span{
 
 .image{
     width: 45%;
-    height: 60%;
+    height: 80%;
     position: absolute;
     bottom: 0;
     right: 100px;
@@ -71,7 +72,7 @@ span{
 .image img{
     height: 100%;
     position: absolute;
-    left: 50%;
+    left: 70%;
     bottom: 0;
     transform: translate(-50%);
     transition: bottom 1s, left 1s;
