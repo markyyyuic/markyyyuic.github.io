@@ -1,128 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MARKYYY's Personal Portfolio</title>
-    <link rel="stylesheet" href="./assets/style.css">
-    <script src="https://kit.fontawesome.com/eea99ec222.js" crossorigin="anonymous"></script>
-</head>
-<body>
-   <div class="hero" >
-   <nav>
-       <img src="./assets/mylogobg.png" alt="" class="logo">
-       <ul>   
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT ME</a></li>
-            <li><a href="">PORTFOLIO</a></li>
-            <li><a href="">SOCIALS</a></li>
-        </ul>
-        
-   </nav>
-   <div class="detel">
-        <h1>Hello! My name is <span>Mark Anthony Nisnea</span></h1>
-        <h1>From BSIT - 2B</h1>
-        <p>This is my personal website. 
-          <br>You can see here my works and my socials.
-          <br>Hope we can get along!
-        </p>
-        <a href="">About Me</a>
-   </div>
-   <div class="image">
-       <img src="./assets/myimagepreview.png" class="boy">
-    </div>
-     </div> 
-
-   <!--------about me------->
-  <div id="about">
-      <div clas="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="./assets/about me (1).jpg" alt="">
-          </div>
-          <div class="about-col-2">
-            <h1 class="subtitle">About Me</h1>
-            <p>My name is <span>Mark Anthony H. Nisnea</span>, and I am a second-year college student at the University of Immaculate Conception. My course is information technology.
-            </p>
-
-            <div class="tab-titles">
-              <p class="tablinks activelink" onclick="opentab('experience')">Experience</p>
-              <p class="tablinks" onclick="opentab('education')">Education</p>
-            </div>
-            <div class="tab-contents active-tab" id="experience">
-              <ul>
-                <li><span>Virtual Assistant</span><br>Data Entry/Electronic medical records</li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li><span>Primary School</span><br>Maranatha Christian Academy</li>
-                <li><span>Secondary School</span><br>Don Enrique Bustamante National High School</li>
-                <li><span>Senior High School</span><br>Brokenshire College of Toril</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <div class = "top"></div>
+  <div class = "class">
+    <body>
+    <center>
+      <div class = "space"></div>
+      <h1>MARKYY NISNEA's Portfolio</h1>
+      <table border = "10">
+        <tbody>
+          <tr>
+            <td>Activity</td>
+            <td>Link</td>
+          </tr>
+          <tr>
+            <td>Fashion Blog</td>
+            <td><a href="https://markyyyuic.github.io/Activity/fashionblog.html" >View Here</a></td>
+          </tr>
+          <tr>
+            <td>Wine Festival Schedule</td>
+            <td><a href="https://markyyyuic.github.io/Activity/Wine/wine.html" >View Here</a></td>
+          </tr>
+          <tr>
+            <td>Davie's Burger</td>
+            <td><a href="https://markyyyuic.github.io/Activity/daviesburg/burgerdavies.html">View Here</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class = "space"></div>
+    </center>
   </div>
-
-<!-----PORTFOLIOS------>
-
-  <div id="portfolio">
-    <div class="container">
-      <h1 class="subtitle">My Portfolio</h1>
-      <div class="work-list">
-        <div class="work">
-          <img src="./assets/fashionblog2 (1).jpeg">
-          <div class="layer">
-            <h3>Activity 1.1</h3>
-            <p>Fashion Blog</p>
-            <a href="https://markyyyuic.github.io/Activity/fashionblog.html"><i class="fas fa-external-link"></i></a>
-          </div>
-        </div>
-        <div class="work">
-          <img src="./assets/wine (1) (1).jpg">
-          <div class="layer">
-            <h3>Activity 1.2</h3>
-            <p>Wine Festival Schedule</p>
-            <a href="https://markyyyuic.github.io/Activity/Wine/wine.html"><i class="fas fa-external-link"></i></a>
-          </div>
-        </div>
-        <div class="work">
-          <img src="./assets/davies burger (1).png">
-          <div class="layer">
-            <h3>Activity 2.1</h3>
-            <p>Burger davies</p>
-            <a href="https://markyyyuic.github.io/Activity/daviesburg/burgerdavies.html"><i class="fas fa-external-link"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-  <script>
-    var tablinks = document.getElementsByClassName("tablinks");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-    function opentab(tabname){
-
-      for(tablink of tablinks){
-      tablink.classList.remove("activelink");
-    }
-
-     for(tabcontent of tabcontents){
-      tabcontent.classList.remove("active-tab");
-    }
-    event.currentTarget.classList.add("activelink");
-    document.getElementById(tabname).classList.add("active-tab");
-  }
-
-  </script>
-
-
-</body>
-</html>
+  </body>
+  <div class = "top"></div>
+  </html>
