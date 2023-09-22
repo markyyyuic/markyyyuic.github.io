@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Financial Tracker</title>
+</head>
+<body>
+    
+    <div class="container">
+        <label>
+        <div class="sidebar">
+            <h1>TRACKER</h1>
+            <div class="buttons1">
+                <ul>
+                    <li><a href="#"><i class="fas fa-user"></i><button  data-id="dashboard" class="button">OVERVIEW</button></a></li>
+                    <li><a href="#"><i class="fas fa-folder"></i><button data-id="income" class="button">INCOME</button></a></li>
+                    <li><a href="#"><i class="fas fa-address-book"></i><button data-id="expense0" class="button">EXPENSES</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </label>
 
+        <div class="dashboard">
+            <div class="gcash">
+                <h1>GCASH: 10,000 PHP</h1>
+            </div>
+            <div class="cash">
+                <h1>CASH: 5,000 PHP</h1>
+            </div>
+            <div class="ratings">
+                <img src="./assets/image-removebg-preview 1.png" alt="">
+            </div>
+
+            <div class="markings">
+                <img src="./assets/markings.png" alt="">
+            </div>
+
+            <div class="balance">
+                <h1>Available Balance:</h1>
+            </div>
+
+            <div class="amount-balance">
+                <h1>PHP: 15,000.00</h1>
+            </div>
+        </div>
+        <div class="recent">
+                <div class="expenses-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Amount</th>
+                                <th>Date</th>
+                            </tr>
+                            <tr>
+                                <td>Davao Light</td>
+                                <td>2,590.00</td>
+                                <td>09/16/23</td>
+                            </tr>
+                            <tr>
+                                <td>PLDT</td>
+                                <td>1,459.00</td>
+                                <td>09/20/23</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Water</td>
+                                <td>1,089.00</td>
+                                <td>09/5/23</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Rent</td>
+                                <td>5,000.00</td>
+                                <td>09/1/23</td>
+                                
+                            </tr>
+                        </thead>
+                        <tbody id="expnese-table-body">
+            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="title">
+                <h2>Recent Transactions</h2>
+            </div>
+        </div>
+        <script src="js.js"></script>
+            
+        
+    
+
+ 
+
+  
+
+
+</body>
+</html>
