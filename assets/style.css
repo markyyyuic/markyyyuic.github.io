@@ -206,7 +206,7 @@ span{
 .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 5px;
     margin-top: 35px;
 }
 
@@ -215,8 +215,8 @@ span{
     position: relative;
     overflow: hidden;
     height: 83%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .work img{
