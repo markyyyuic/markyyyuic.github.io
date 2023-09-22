@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+  width: 1518px;
+  height: 850px;
+  border-radius: 20px;
+  background: #D9D9D9;
+  position: absolute;
+}
+
+.container .sidebar {
+  width: 250px;
+  height: 800px;
+  border-radius: 30px;
+  background: #FC5472;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: absolute;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: black;
+  font-weight: 500;
+  padding: 5px 0;
+  display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+
+  border-radius: 25px;
+}
+
+ul li a i {
+  width: 50px;
+  text-align: center;
+  font-weight: 500;
+  padding: 30px;
+  color: #c13c34;
+  
+}
+
+ul li button {
+  background-color: #F5F5F5;
+  padding: 10px 10px;
+  border-radius: 10px;
+  width: 150px;
+  font-size: bold;
+  color: #c13c34;
+  height: 50px;
+  font-size: large;
+  
+
+  
+
+  
+}
+
+ul li:hover a{
+  color: #ffff;
+  background-color: #d6c4a8;
+  opacity: 3;
+}
+
+h1 {
+  color: #e1b774;
+  font-weight: 800;
+  text-align: right;
+  padding: 10px 0;
+  padding-right: 55px;
+  pointer-events: none;
+}
+
+/*dashboard*/
+
+ .dashboard {
+  height: 93%;
+  width: 80%;
+  background-color: #d6c4a8;
+  box-sizing: content-box;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  left: 19%;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  margin-top: 35px;
+
+}
+
+.gcash {
+  height: 13%;
+  width: 28%;
+  background-color: #318be6;
+  box-sizing: content-box;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  border-radius: 25px;
+  top: 20px;
+  left: 20px;
+
+}
+
+.gcash h1 {
+  color: #000;
+  text-align: center;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cash {
+  height: 13%;
+  width: 28%;
+  background-color: #318be6;
+  box-sizing: content-box;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  border-radius: 25px;
+  left: 32%;
+  bottom: 10.3%;
+}
+
+.cash h1 {
+  color: #000;
+  text-align: center;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ratings {
+  height: 13%;
+  width: 20%;
+  left: 15%;
+}
+
+.ratings img{
+  height: 300px;
+  width: 450px;
+}
+
+.markings {
+    height: 13%;
+    width: 20%;
+
+  
+}
+
+.markings img{
+  margin-left: 170%;
+}
+
+.balance {
+    height: 5.8%;
+    width: 24%;
+    border-radius: 20px;
+    background: rgba(252, 84, 114, 0.58);
+    margin-left: 63%;
+    margin-top: -12%;
+    
+}
+
+.balance h1 {
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.amount-balance {
+  height: 10%;
+  width: 24%;
+  border-radius: 20px;
+  border: 10px solid rgba(252, 84, 114, 0.58);
+  margin-left: 63%;
+  margin-top: 10%;
+  margin-top: 1%;
+
+}
+
+.amount-balance h1 {
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.recent {
+  width: 1518px;
+
+  border-radius: 20px;
+  background: #D9D9D9;
+  position: absolute;
+}
+
+
+.title {
+  height: 35px;
+  width: 235px;
+  border-radius: 20px;
+  background: rgba(252, 84, 114, 0.58);
+  margin-left: 50%;
+  margin-top: -19%; /* Remove negative margin-top */
+  position: relative; /* Add position property */
+  z-index: 1; /* Add z-index to bring it to the front */
+  text-align: center;
+}
+
+
+
+
+.recent table {
+  width: 75%;
+  border-collapse: collapse;
+  margin-left: 20%;
+  margin-top: -15%;
+  border: solid;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+  
+}
+
+th {
+  background-color: #FC5472;
+  color: rgb(3, 3, 3);
+  border: solid;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.panel {
+   display: none; 
+  }
+  
+.show { 
+  display: block; 
+}
