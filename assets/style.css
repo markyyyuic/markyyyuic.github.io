@@ -33,13 +33,15 @@ nav ul li{
     list-style: none;
     margin: 10px 20px;
     align-items: right;
+    
 
     
 }
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: 600;
+
 }
 nav ul li a:hover{
     color: #d3c6ed;
@@ -111,7 +113,7 @@ span{
 .about-col-1 img {
     width: 95%;
     border-radius: 70%;
-    height: 90%;
+    height: 83%;
     margin-bottom: 2px;
     margin-left: 10%;
     transform: scale(100%);
@@ -273,4 +275,43 @@ span{
 
 .work:hover .layer{
     height: 100%;
+}
+
+.socials p {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.socials p i {
+
+}
+
+.social-icon {
+    margin-left: 0;
+    
+}
+
+.social-icon a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 10px;
+    color: #212121;
+    display: inline-block;
+    margin-top: 5px;
+    transition: transform 0.5s;
+    
+}
+
+.social-icon a:hover {
+    color: #531fb3;
+    transform: translateY(-10px);
+} 
+
+
+
+.contactme{
+    font-weight: 600;
+    font-size: larger;
+    text-decoration: underline;
 }
