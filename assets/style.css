@@ -2,17 +2,21 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
     
 }
 .hero{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #edf2fd;
+    background: #92a4cb;
 }
 .logo{
-    width: 200px;
+    width: 70;
     margin-left: 8%;
+    height: 70px;
+    margin-top: 1px;
+    border-radius: 250px;
 }
 nav{
     display: flex;
@@ -20,12 +24,17 @@ nav{
     padding: 20px 0;
     align-items: center;
     justify-content: left;
-    left: 90%;
+    left: 10px;
+    
+    
 }
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+    align-items: right;
+
+    
 }
 nav ul li a{
     text-decoration: none;
@@ -33,7 +42,7 @@ nav ul li a{
     font-weight: bold;
 }
 nav ul li a:hover{
-    color: #ff4b5a;
+    color: #d3c6ed;
 }
 .detel{
     margin: 8% 0 0 8%;
@@ -86,6 +95,7 @@ span{
 #about {
     padding: 60px 0;
     color: black;
+    background-color: #a5b4d4;
 }
 
 .row {
@@ -99,8 +109,13 @@ span{
 }
 
 .about-col-1 img {
-    width: 100%;
-    border-radius: 15px;
+    width: 95%;
+    border-radius: 70%;
+    height: 90%;
+    margin-bottom: 2px;
+    margin-left: 10%;
+    transform: scale(100%);
+    
 
 }
 
@@ -113,6 +128,15 @@ span{
     font-size: 60px;
     font-weight: 600;
     color: black;
+    margin-left: 3%;
+    
+}
+
+.subtitle-one{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+
 }
 
 .about-col-2  span {
@@ -170,22 +194,27 @@ span{
 
 
 #portfolio {
-    padding: 50px 0;
+    padding: 20px 0;
     background: #edf2fd;
+    background-color: #92a4cb;
+
 
 }
 
 .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
+    grid-gap: 10px;
+    margin-top: 35px;
 }
 
 .work{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    height: 83%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .work img{
@@ -193,6 +222,9 @@ span{
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    
+
+    
 }
 
 .layer {
@@ -210,8 +242,9 @@ span{
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 14px;
+    font-size: 35px;
     transition: height 0.5s;
+    color: #b5b3ba;
 
 }
 
